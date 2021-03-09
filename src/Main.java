@@ -7,14 +7,19 @@ public class Main {
 		StationaryComputer sc = new StationaryComputer();
 		
 		c.turnOn();
+		c.playVideo();
 		c.playMusic();
 		c.turnOff();
 		
 		l.turnOn();
 		l.playVideo();
+		l.playMusic();
 		l.turnOff();
 		
 		sc.turnOn();
+		sc.playVideo();
+		sc.playMusic();
+		sc.turnOff();
 		
 		
 		
